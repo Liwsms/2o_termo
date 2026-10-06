@@ -1,0 +1,13 @@
+const fs = require('fs');
+
+console.log("====SISTEMA DE PERSISTÊNCIA: REGISTRO DE MÁQUINAS");
+
+const maquinaIndustriais = [
+    
+    { id:101, nome: "Torno Mecanico Universal", setor: "Usinagem", operacional:true},
+    { id:102, nome: "Fresadora Ferramenteira", setor: "Usinagem", operacional:false},
+    { id:103, nome: "Prensa Hidráulica", setor: "Usinagem", operacional:true}
+]
+const nomeDoArquivo = "maquinas.json";
+fs.writeFileSync(nomeDoArquivo,dadosParaGravar);
+console.log('\nGravacao concluída com sucesso.')
