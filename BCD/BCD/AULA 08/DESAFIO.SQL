@@ -80,3 +80,9 @@ INSERT INTO cliente (nome,telefone,email,cidade, ativo) VALUES
 
 -- 16. Crie uma categoria temporária chamada 'Excluir Depois' e remova-a.
 
+-- CHECKLIST DO ALUNO
+Entendo AUTO_INCREMENT, DEFAULT E NULL
+Consigo atualizar uma ou várias linhas com segurança
+Consigo inserir uma ou várias linhas
+
+
